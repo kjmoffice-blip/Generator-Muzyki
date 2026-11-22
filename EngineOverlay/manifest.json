@@ -1,0 +1,10 @@
+{
+  "commit": "ca1e85fe9430179831e6bc6be790c332190a3866",
+  "files": [
+    "acestep/acestep_v15_pipeline.py",
+    "acestep/inference.py",
+    "acestep/ui/gradio/api/api_routes.py",
+    "acestep/ui/gradio/events/results/generation_info.py",
+    "acestep/ui/gradio/events/results/session_artifacts.py"
+  ]
+}
