@@ -1,0 +1,10 @@
+{
+  "engineRepository": "https://github.com/ace-step/ACE-Step-1.5",
+  "engineCommit": "ca1e85fe9430179831e6bc6be790c332190a3866",
+  "models": "https://huggingface.co/ACE-Step/Ace-Step1.5",
+  "textEncoder": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+  "engineLicense": "MIT",
+  "textEncoderLicense": "Apache-2.0",
+  "engineChanges": "Five output/cache directory defaults accept SOS_MUSIC_ENGINE_OUTPUT; defaults for other uses preserved.",
+  "ffmpeg": "LGPL-2.1-or-later; compiled separately; sources and configure flags included"
+}

@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "file": "lame-4.0.tar.gz",
+      "sha256": "3df5124d5ad3a98312ffd7ba6a9b36230e4f8a3e66d3ce0f425e336c32d216eb"
+    },
+    {
+      "file": "ffmpeg-9.0.2.tar.xz",
+      "sha256": "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e"
+    }
+  ],
+  "buildConfiguration": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers\n  built with Apple clang version 21.0.0 (clang-2100.3.34.2)\n  configuration: --prefix=/private/tmp/sosdigital-audio-build-3/prefix --arch=arm64 --target-os=darwin --cc=clang --disable-autodetect --disable-everything --disable-network --disable-shared --enable-static --disable-doc --disable-debug --enable-ffmpeg --enable-ffprobe --enable-avcodec --enable-avformat --enable-avfilter --enable-swresample --enable-libmp3lame --extra-cflags='-I/private/tmp/sosdigital-audio-build-3/prefix/include -mmacosx-version-min=14.0' --extra-ldflags='-L/private/tmp/sosdigital-audio-build-3/prefix/lib -mmacosx-version-min=14.0' --enable-protocol='file,pipe' --enable-demuxer='mp3,aac,wav,flac,ogg,mov,aiff,matroska' --enable-decoder='mp3,mp3float,aac,aac_fixed,flac,vorbis,opus,alac,pcm_s16le,pcm_s16be,pcm_s24le,pcm_s24be,pcm_s32le,pcm_s32be,pcm_f32le,pcm_f64le,pcm_u8' --enable-parser='mpegaudio,aac,flac,opus,vorbis' --enable-muxer='mp3,wav,flac,ogg,ipod,adts,null,framemd5,md5' --enable-encoder='libmp3lame,pcm_s16le,pcm_s24le,pcm_f32le,flac,aac' --enable-filter='aresample,aformat,anull,volume,volumedetect,astats,atrim,asetpts,acopy,abuffer,abuffersink'\n  libavutil      61.  1.102 / 61.  1.102\n  libavcodec     63.  1.102 / 63.  1.102\n  libavformat    63.  1.102 / 63.  1.102\n  libavdevice    63.  1.102 / 63.  1.102\n  libavfilter    12.  1.102 / 12.  1.102\n  libswscale     10.  1.102 / 10.  1.102\n  libswresample   7.  1.102 /  7.  1.102\n\n  configuration:\n    --prefix=/private/tmp/sosdigital-audio-build-3/prefix\n    --arch=arm64\n    --target-os=darwin\n    --cc=clang\n    --disable-autodetect\n    --disable-everything\n    --disable-network\n    --disable-shared\n    --enable-static\n    --disable-doc\n    --disable-debug\n    --enable-ffmpeg\n    --enable-ffprobe\n    --enable-avcodec\n    --enable-avformat\n    --enable-avfilter\n    --enable-swresample\n    --enable-libmp3lame\n    --extra-cflags='-I/private/tmp/sosdigital-audio-build-3/prefix/include -mmacosx-version-min=14.0'\n    --extra-ldflags='-L/private/tmp/sosdigital-audio-build-3/prefix/lib -mmacosx-version-min=14.0'\n    --enable-protocol='file,pipe'\n    --enable-demuxer='mp3,aac,wav,flac,ogg,mov,aiff,matroska'\n    --enable-decoder='mp3,mp3float,aac,aac_fixed,flac,vorbis,opus,alac,pcm_s16le,pcm_s16be,pcm_s24le,pcm_s24be,pcm_s32le,pcm_s32be,pcm_f32le,pcm_f64le,pcm_u8'\n    --enable-parser='mpegaudio,aac,flac,opus,vorbis'\n    --enable-muxer='mp3,wav,flac,ogg,ipod,adts,null,framemd5,md5'\n    --enable-encoder='libmp3lame,pcm_s16le,pcm_s24le,pcm_f32le,flac,aac'\n    --enable-filter='aresample,aformat,anull,volume,volumedetect,astats,atrim,asetpts,acopy,abuffer,abuffersink'\n\nExiting with exit code 0\n",
+  "buildScript": "Scripts/build_audio_tools.py",
+  "pkgconf": "3.0.7.post0"
+}

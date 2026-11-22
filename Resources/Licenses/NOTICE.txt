@@ -1,0 +1,16 @@
+GENERATOR MUZYKI · SOS DIGITAL — informacje o składnikach
+
+Interfejs SOS Digital korzysta z ACE-Step 1.5. Licencje składników zachowują własne warunki; nazwa i logo interfejsu nie zastępują informacji o autorach silnika.
+
+ACE-Step: https://github.com/ace-step/ACE-Step-1.5 — MIT.
+Modele pakietu: https://huggingface.co/ACE-Step/Ace-Step1.5.
+Qwen3-Embedding-0.6B: https://huggingface.co/Qwen/Qwen3-Embedding-0.6B — Apache-2.0.
+Dokładne wersje, źródła, identyfikatory rewizji i sumy plików: PROVENANCE.json, Model-files.json i Model-download-revisions.json.
+
+Python i biblioteki: Python-license.txt, Python-build.txt, Python-packages.json oraz podfoldery Python i Supplemental. Inwentarz zawiera wersje faktycznie dołączonych dystrybucji. Część pakietów dostarcza także oddzielne informacje o swoich zależnościach w tych samych plikach licencyjnych.
+
+FFmpeg 9.0.2 jest osobnym narzędziem wykonawczym zbudowanym bez --enable-gpl i --enable-nonfree, na LGPL 2.1 lub nowszej. LAME 4.0 jest użyte statycznie do kodowania MP3, na warunkach dołączonej LGPL. Teksty: FFmpeg-license.txt, LGPL-2.1.txt i LAME-license.txt. Kompletne użyte archiwa źródłowe znajdują się w Sources; sumy i opcje konfiguracji w FFmpeg-build.json. Skrypt odtworzenia jest w udostępnionej paczce źródeł aplikacji, Scripts/build_audio_tools.py. Po rozpakowaniu archiwów można odtworzyć lub zmienić narzędzia, używając zapisanych opcji konfiguracji i własnej kompilacji LAME.
+
+Nie ograniczamy praw do modyfikowania i badania tych składników w zakresie przysługującym na ich licencjach. Zmiana podpisanej kopii aplikacji narusza jej podpis dystrybucyjny; własna zmodyfikowana kompilacja wymaga własnego sposobu uruchamiania i podpisu.
+
+To informacje o zawartości konkretnej paczki i dołączone materiały licencyjne. Nie stanowią gwarancji prawnej obejmującej dowolny przyszły sposób sprzedaży, dodatkowe komponenty ani prawa do materiałów wgrywanych przez użytkownika.

@@ -1,0 +1,23 @@
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/private/tmp/sosdigital-audio-build-3/prefix --arch=arm64 --target-os=darwin --cc=clang --disable-autodetect --disable-everything --disable-network --disable-shared --enable-static --disable-doc --disable-debug --enable-ffmpeg --enable-ffprobe --enable-avcodec --enable-avformat --enable-avfilter --enable-swresample --enable-libmp3lame --extra-cflags='-I/private/tmp/sosdigital-audio-build-3/prefix/include -mmacosx-version-min=14.0' --extra-ldflags='-L/private/tmp/sosdigital-audio-build-3/prefix/lib -mmacosx-version-min=14.0' --enable-protocol='file,pipe' --enable-demuxer='mp3,aac,wav,flac,ogg,mov,aiff,matroska' --enable-decoder='mp3,mp3float,aac,aac_fixed,flac,vorbis,opus,alac,pcm_s16le,pcm_s16be,pcm_s24le,pcm_s24be,pcm_s32le,pcm_s32be,pcm_f32le,pcm_f64le,pcm_u8' --enable-parser='mpegaudio,aac,flac,opus,vorbis' --enable-muxer='mp3,wav,flac,ogg,ipod,adts,null,framemd5,md5' --enable-encoder='libmp3lame,pcm_s16le,pcm_s24le,pcm_f32le,flac,aac' --enable-filter='aresample,aformat,anull,volume,volumedetect,astats,atrim,asetpts,acopy,abuffer,abuffersink'
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+ffmpeg is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+ffmpeg is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with ffmpeg; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA

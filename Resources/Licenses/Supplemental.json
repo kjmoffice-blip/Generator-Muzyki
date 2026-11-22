@@ -1,0 +1,73 @@
+[
+  {
+    "name": "ffmpy",
+    "version": "1.0.0",
+    "notices": [
+      "Supplemental/ffmpy/LICENSE"
+    ],
+    "sourceURL": "https://files.pythonhosted.org/packages/7d/d2/1c4c582d71bcc65c76fa69fab85de6257d50fdf6fd4a2317c53917e9a581/ffmpy-1.0.0.tar.gz",
+    "sourceSHA256": "b12932e95435c8820f1cd041024402765f821971e4bae753b327fc02a6e12f8b",
+    "licenseSource": "https://github.com/Ch00k/ffmpy/blob/master/LICENSE",
+    "licenseGitBlob": "9312c696c4dc2d5a8c07e3df6972466035bc4254"
+  },
+  {
+    "name": "gradio_client",
+    "version": "2.0.2",
+    "notices": [
+      "Supplemental/gradio_client-2.0.2/Apache-2.0.txt"
+    ],
+    "sourceURL": "https://files.pythonhosted.org/packages/55/37/2bab45f9e218d5411e4e83c6d99602a1aba145b7872587dbdc8954877259/gradio_client-2.0.2.tar.gz",
+    "sourceSHA256": "9800a3cead74881ffb3b0d6b731ea4a8e3c52d2ba63d5ab350e30db53566d4bf"
+  },
+  {
+    "name": "loguru",
+    "version": "0.7.3",
+    "notices": [
+      "Supplemental/loguru/LICENSE"
+    ],
+    "sourceURL": "https://files.pythonhosted.org/packages/3a/05/a1dae3dffd1116099471c643b8924f5aa6524411dc6c63fdae648c4f1aca/loguru-0.7.3.tar.gz",
+    "sourceSHA256": "19480589e77d47b8d85b2c827ad95d49bf31b0dcde16593892eb51dd18706eb6",
+    "licenseSource": "https://github.com/Delgan/loguru/blob/master/LICENSE",
+    "licenseGitBlob": "5285f420ff222526f9afa7acf507362367132f9c"
+  },
+  {
+    "name": "sentencepiece",
+    "version": "0.2.1",
+    "notices": [
+      "Supplemental/sentencepiece-0.2.1/sentencepiece/LICENSE",
+      "Supplemental/sentencepiece-0.2.1/sentencepiece/third_party/absl/LICENSE",
+      "Supplemental/sentencepiece-0.2.1/sentencepiece/third_party/darts_clone/LICENSE",
+      "Supplemental/sentencepiece-0.2.1/sentencepiece/third_party/esaxx/LICENSE",
+      "Supplemental/sentencepiece-0.2.1/sentencepiece/third_party/protobuf-lite/LICENSE"
+    ],
+    "sourceURL": "https://files.pythonhosted.org/packages/15/15/2e7a025fc62d764b151ae6d0f2a92f8081755ebe8d4a64099accc6f77ba6/sentencepiece-0.2.1.tar.gz",
+    "sourceSHA256": "8138cec27c2f2282f4a34d9a016e3374cd40e5c6e9cb335063db66a0a3b71fad"
+  },
+  {
+    "name": "tensorboard-data-server",
+    "version": "0.7.2",
+    "notices": [
+      "Supplemental/tensorboard-data-server-0.7.2/Apache-2.0.txt"
+    ],
+    "sourceURL": null,
+    "sourceSHA256": null
+  },
+  {
+    "name": "tokenizers",
+    "version": "0.22.2",
+    "notices": [
+      "Supplemental/tokenizers-0.22.2/tokenizers/LICENSE"
+    ],
+    "sourceURL": "https://files.pythonhosted.org/packages/73/6f/f80cfef4a312e1fb34baf7d85c72d4411afde10978d4657f8cdd811d3ccc/tokenizers-0.22.2.tar.gz",
+    "sourceSHA256": "473b83b915e547aa366d1eee11806deaf419e17be16310ac0a14077f1e28f917"
+  },
+  {
+    "name": "tqdm",
+    "version": "4.67.1",
+    "notices": [
+      "Supplemental/tqdm-4.67.1/LICENCE"
+    ],
+    "sourceURL": "https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz",
+    "sourceSHA256": "f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2"
+  }
+]
