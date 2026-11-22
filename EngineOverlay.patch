@@ -1,0 +1,55 @@
+--- a/acestep/acestep_v15_pipeline.py
++++ b/acestep/acestep_v15_pipeline.py
+@@ -198,7 +198,7 @@
+ 
+     # Define local outputs directory
+     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+-    output_dir = os.path.join(project_root, "gradio_outputs")
++    output_dir = os.environ.get("SOS_MUSIC_ENGINE_OUTPUT", os.path.join(project_root, "gradio_outputs"))
+     # Normalize path to use forward slashes for Gradio 6 compatibility on Windows
+     output_dir = output_dir.replace("\\", "/")
+     os.makedirs(output_dir, exist_ok=True)
+--- a/acestep/inference.py
++++ b/acestep/inference.py
+@@ -393,7 +393,7 @@
+     candidates = [os.path.splitext(expanded_audio)[0] + ".json"]
+     basename = os.path.splitext(os.path.basename(expanded_audio))[0]
+     if basename:
+-        results_root = os.path.join(os.getcwd(), "gradio_outputs")
++        results_root = os.environ.get("SOS_MUSIC_ENGINE_OUTPUT", os.path.join(os.getcwd(), "gradio_outputs"))
+         sidecars = glob.glob(
+             os.path.join(results_root, "batch_*", f"{glob.escape(basename)}.json")
+         )
+--- a/acestep/ui/gradio/api/api_routes.py
++++ b/acestep/ui/gradio/api/api_routes.py
+@@ -17,7 +17,7 @@
+ 
+ # Global results directory inside project root
+ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+-DEFAULT_RESULTS_DIR = os.path.join(PROJECT_ROOT, "gradio_outputs").replace("\\", "/")
++DEFAULT_RESULTS_DIR = os.environ.get("SOS_MUSIC_ENGINE_OUTPUT", os.path.join(PROJECT_ROOT, "gradio_outputs")).replace("\\", "/")
+ os.makedirs(DEFAULT_RESULTS_DIR, exist_ok=True)
+ 
+ # API Key storage (set via setup_api_routes)
+--- a/acestep/ui/gradio/events/results/generation_info.py
++++ b/acestep/ui/gradio/events/results/generation_info.py
+@@ -18,7 +18,7 @@
+     os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
+         os.path.dirname(os.path.abspath(__file__))))))
+ )
+-DEFAULT_RESULTS_DIR = os.path.join(PROJECT_ROOT, "gradio_outputs").replace("\\", "/")
++DEFAULT_RESULTS_DIR = os.environ.get("SOS_MUSIC_ENGINE_OUTPUT", os.path.join(PROJECT_ROOT, "gradio_outputs")).replace("\\", "/")
+ os.makedirs(DEFAULT_RESULTS_DIR, exist_ok=True)
+ 
+ 
+--- a/acestep/ui/gradio/events/results/session_artifacts.py
++++ b/acestep/ui/gradio/events/results/session_artifacts.py
+@@ -167,7 +167,7 @@
+     """Return newest matching JSON sidecars under ``gradio_outputs``."""
+     if base.suffix.lower() == ".json":
+         return []
+-    results_root = Path.cwd() / "gradio_outputs"
++    results_root = Path(os.environ.get("SOS_MUSIC_ENGINE_OUTPUT", str(Path.cwd() / "gradio_outputs")))
+     if not results_root.exists():
+         return []
+     filename = base.with_suffix(".json").name
