@@ -1,0 +1,30 @@
+GENERATOR MUZYKI 3.0 — SOS DIGITAL . PRO
+
+INSTALACJA
+Mac Apple Silicon, macOS 14 lub nowszy. Otwórz DMG i przeciągnij Generator Muzyki do Applications. Aplikacja zawiera silnik ACE-Step 1.5, modele AI, Pythona i narzędzia audio. Zajmuje około 11 GB; podczas kopiowania instalatora i aplikacji potrzebne jest dodatkowe miejsce. Pierwsze uruchomienie modeli trwa dłużej. Nie trzeba uruchamiać Terminala ani instalować osobno Pythona czy FFmpeg.
+
+KOLEKCJA
+Wczytaj TXT lub DOCX albo wybierz Wklej listę. Format SOS MUSIC PLAN 1 opisano w instrukcji list dostępnej w menu Studio. Sprawdź podgląd pozycji, wskaż folder wyników i kliknij Generuj całą kolejkę. Program wykonuje pozycje pojedynczo. Pauza po utworze kończy bieżące nagranie, zapisuje wynik i zatrzymuje kolejkę. Wznów pomija gotowe wyniki. Po usunięciu przyczyny błędu użyj Ponów lub Ponów błędy, następnie Wznów. Kolekcja po pierwszym starcie pamięta własny folder.
+
+Każda pozycja może mieć od 10 sekund do 5 minut; lista może zawierać do 1000 pozycji. Duże kolekcje wymagają odpowiedniej pamięci, miejsca i czasu. Cyfrowy zegar mierzy czas generacji, a w kolekcji jest także łączny czas kolejki. Podczas tworzenia blokowane jest automatyczne usypianie systemu. Nie usypiaj ani nie wyłączaj ręcznie komputera w trakcie pracy.
+
+JEDEN FOLDER Z WYNIKAMI
+Nowe MP3 są zapisywane bezpośrednio we wskazanym folderze. Nazwa zawiera tytuł i krótki identyfikator, więc powtórzony tytuł nie nadpisuje wcześniejszego nagrania. W czasie pracy pojawiają się też własne pliki parametrów i tekstu. Po ukończeniu całej kolekcji bez błędów program odczekuje 30 sekund, ponownie sprawdza nagrania i usuwa wyłącznie swoje niezmienione pliki pomocnicze tej kolekcji. Audio i cudze pliki pozostają. Można zatrzymać sprzątanie przyciskiem zachowania plików. Przy błędzie albo zmianie pliku pomocniczego pliki diagnostyczne są zachowywane. Pojedyncze nagrania korzystają z tego samego mechanizmu.
+
+Trwały indeks wyników, stan kolejki i raporty są przechowywane osobno w katalogu użytkownika: Library/Application Support/SOS Digital/Generator Muzyki. Dzięki temu po sprzątaniu nadal działa biblioteka i wznowienie. Nie usuwaj ręcznie tego katalogu, jeśli chcesz zachować postęp. Poprzednie kolekcje z wersji 2 są odczytywane, a ich istniejące podfoldery i pliki nie są automatycznie przebudowywane ani sprzątane.
+
+RAM I DYSK
+Górny pasek pokazuje pamięć aplikacji razem z jej silnikiem i procesami potomnymi, przybliżoną dostępną pamięć systemu oraz wolne miejsce na dysku wskazanego folderu wyników. Aktualizacja odbywa się mniej więcej co dwie sekundy. Na Macu pamięć jest współdzielona; dostępny RAM jest przybliżeniem, a wartości nie muszą sumować się do całej pamięci komputera.
+
+Poniżej 5% wolnego miejsca wskaźnik dysku miga czerwono i niebiesko. Przy 1% lub mniej program wydaje sygnał systemowy, przerywa własny silnik i wstrzymuje kolejkę, zachowując stan. Aplikacja pozostaje otwarta. Po zwolnieniu miejsca trzeba wznowić pracę; nieukończony utwór może wymagać ponownego obliczenia. Odłączenie dysku zapisu również zatrzymuje generację. Alarm zależy od ustawień dźwięku systemu. Nie odłączaj dysku podczas pracy.
+
+RAPORT
+Przycisk Raport pokazuje wyniki pozycji, czasy, błędy, szczytowy pomiar pamięci i stan porządkowania. Można wyeksportować raport HTML. Kopie raportów i logi pozostają w prywatnym katalogu aplikacji, poza folderem MP3.
+
+POJEDYNCZY UTWÓR
+Nowy utwór zachowuje ręczne pola: tytuł, styl, pełny tekst, czas, język, wokal lub tryb instrumentalny, parametry eksportu i plik wzorcowy. MP3 można wybrać lub przeciągnąć. Rodzaj głosu i styl są wskazówkami dla modelu, bez gwarancji konkretnego brzmienia. Presety: Pop, Rock, Elektronika, Spokojnie, Mocna klubowa, Techno, Trance, Latino, Skoli. Przycisk w prawym górnym rogu przełącza pełny ekran. Biblioteka odtwarza nagrania i pokazuje pliki w Finderze.
+
+Pełny panel ACE otwiera dodatkowy lokalny interfejs silnika w przeglądarce. Jego ręczny eksport korzysta z prywatnego katalogu silnika; płaski zapis i porządkowanie opisane powyżej dotyczą tworzenia przez Generator.
+
+LICENCJE I WYDANIE
+Menu Studio → Licencje składników otwiera dołączone licencje, inwentarz zależności i źródła narzędzi audio. Generator korzysta z ACE-Step 1.5. Stan podpisu, notaryzacji Apple i ograniczenia testów konkretnego wydania podano w raporcie obok DMG. Sam podpis Developer ID nie oznacza akceptacji Apple.

@@ -1,0 +1,28 @@
+SOS MUSIC PLAN 1
+KOLEKCJA: Próba kolejki — dwa krótkie utwory
+DŁUGOŚĆ: 00:10
+JĘZYK: polski
+WOKAL: instrumentalny
+BPM: 128
+FORMAT: mp3
+JAKOŚĆ MP3: 192k
+KROKI: 8
+PLANOWANIE: tak
+
+=== UTWÓR 001 ===
+TYTUŁ: Próba kolejki — Klubowy puls
+BRZMIENIE I STYL:
+Energetic electro house instrumental, powerful controlled sub bass, punchy club kick, bright melodic synth hook, short intro and clean ending.
+TEKST:
+=== KONIEC UTWORU ===
+
+=== UTWÓR 002 ===
+TYTUŁ: Próba kolejki — Nasz dobry rytm
+WOKAL: męski
+BRZMIENIE I STYL:
+Uplifting Polish dance pop, warm adult male lead singing clearly in Polish, deep warm bass, bright synth melody and catchy short chorus.
+TEKST:
+[Chorus]
+Nasza muzyka łączy nas
+To jest nasz najlepszy czas
+=== KONIEC UTWORU ===
